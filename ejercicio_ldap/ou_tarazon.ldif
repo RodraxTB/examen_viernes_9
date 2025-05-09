@@ -1,0 +1,68 @@
+dn: ou=alumnos,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: alumnos
+
+dn: ou=3esoA,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 3esoA
+
+dn: ou=3esoB,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 3esoB
+
+dn: ou=3esoC,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 3esoC
+
+dn: ou=3esoD,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 3esoD
+
+dn: ou=3esoE,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 3esoE
+
+dn: ou=3esoF,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 3esoF
+
+dn: ou=3esoG,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 3esoG
+
+dn: ou=1bachA,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 1bachA
+
+dn: ou=1bachB,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 1bachB
+
+dn: ou=1bachC,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 1bachC
+
+dn: ou=1bachD,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 1bachD
+
+dn: ou=1bachE,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: 1bachE
+
+dn: ou=GSasir1,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: GSasir1
+
+dn: ou=GSasir2,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: GSasir2
+
+dn: ou=GSdaw1,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: GSdaw1
+
+dn: ou=GSdaw2,dc=examentarazon,dc=org
+objectClass: organizationalUnit
+ou: GSdaw2
+

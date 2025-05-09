@@ -1,0 +1,77 @@
+# extended LDIF
+#
+# LDAPv3
+# base <dc=examentarazon,dc=org> with scope subtree
+# filter: (objectclass=*)
+# requesting: ALL
+#
+
+# examentarazon.org
+dn: dc=examentarazon,dc=org
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: Example Organization
+dc: examentarazon
+
+# alumnos, examentarazon.org
+dn: ou=alumnos,dc=examentarazon,dc=org
+ou: alumnos
+objectClass: organizationalUnit
+objectClass: top
+
+# alumnos, alumnos, examentarazon.org
+dn: cn=alumnos,ou=alumnos,dc=examentarazon,dc=org
+cn: alumnos
+gidNumber: 500
+objectClass: posixGroup
+objectClass: top
+
+# alumno 1, alumnos, alumnos, examentarazon.org
+dn: cn=alumno 1,cn=alumnos,ou=alumnos,dc=examentarazon,dc=org
+givenName: alumno
+sn: 1
+cn: alumno 1
+uid: a1
+userPassword:: e01ENX14b1pjK1lzVFB4ODk1WmFrb29sR01BPT0=
+uidNumber: 1000
+gidNumber: 500
+homeDirectory: /home/users/a1
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+
+# 1eso1, alumnos, examentarazon.org
+dn: ou=1eso1,ou=alumnos,dc=examentarazon,dc=org
+ou: 1eso1
+objectClass: organizationalUnit
+objectClass: top
+
+# 1eso1, 1eso1, alumnos, examentarazon.org
+dn: cn=1eso1,ou=1eso1,ou=alumnos,dc=examentarazon,dc=org
+cn: 1eso1
+gidNumber: 501
+objectClass: posixGroup
+objectClass: top
+
+# altarazon1 altarazon1, 1eso1, 1eso1, alumnos, examentarazon.org
+dn: cn=altarazon1 altarazon1,cn=1eso1,ou=1eso1,ou=alumnos,dc=examentarazon,dc=
+ org
+givenName: altarazon1
+sn: altarazon1
+cn: altarazon1 altarazon1
+uid: altarazon1
+userPassword:: e01ENX1tVFArTEp3N3k2R2xXUWd1M3ZqRmVnPT0=
+uidNumber: 1001
+gidNumber: 501
+homeDirectory: /home/users/altarazon1
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 8
+# numEntries: 7
